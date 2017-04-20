@@ -1,0 +1,29 @@
+{
+  "name": "youme",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "export NODE_ENV='development' && node ./bin/www",
+    "publish": "",
+    "test": ""
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cheerio": "~0.22.0",
+    "cookie-parser": "~1.4.3",
+    "crypto": "0.0.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "mongoose": "*",
+    "morgan": "~1.8.1",
+    "mysql": "~2.3.0",
+    "sequelize": "^3.30.4",
+    "serve-favicon": "~2.4.2",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^4.0.0",
+    "request": "^2.81.0"
+  }
+}
