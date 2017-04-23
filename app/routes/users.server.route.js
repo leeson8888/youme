@@ -1,9 +1,11 @@
+/**
+ * Created by tseian on 18/04/2017.
+ */
 var express = require('express');
 var router = express.Router();
-
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+var userController = require("../controllers/user/user.server.controller");
+var filtter = require("../util/filtter");
+router.post('/register', userController.register);
+router.post('/login', userController.login);
 
 module.exports = router;

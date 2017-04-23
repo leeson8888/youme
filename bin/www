@@ -15,7 +15,7 @@ var config = require("../config/config");
  */
 
 var port = normalizePort(process.env.PORT || config.port);
-app.set('port', port);
+app.set('port', 3030);
 
 /**
  * Create HTTP server.
