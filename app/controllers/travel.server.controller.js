@@ -1,21 +1,20 @@
 /**
  * Created by tseian on 22/04/2017.
  */
-var travelModel = require("../../models/travel/travel.server.model");
-var exc = require("../../../config/pool");
+var travelModel = require("../models/travel.server.model.js");
+var exc = require("../../config/pool");
 var jwt = require("jsonwebtoken");
-var config = require("../../../config/config");
+var config = require("../../config/config");
 var uuid = require("uuid");
-var assert = require("../../util/assertUtil");
-var toModel = require("../../util/toModel");
+var assert = require("../util/assertUtil");
+var toModel = require("../util/toModel");
 
 var add = function (req, res, next) {
     var travel = travelModel.build();
     toModel(req.body, travel);
-    travel.id =uuid();
+    travel.id = uuid();
 
-
-    travel.save().success(function (data) {
+    travel.save().then(function (data) {
 
     }).catch(function (error) {
 

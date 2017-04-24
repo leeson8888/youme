@@ -1,7 +1,7 @@
 /**
  * Created by tseian on 20/04/2017.
  */
-var sequelize = require("../../../config/sequelize");
+var sequelize = require("../../config/sequelize");
 var DataTypes = require("sequelize");
 var UserModel = sequelize.define('users', {
     id: {
@@ -23,7 +23,8 @@ var UserModel = sequelize.define('users', {
     },
     phone: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: false,
+        unique: true
     },
     pass_word: {
         type: DataTypes.STRING

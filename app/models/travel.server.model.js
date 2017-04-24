@@ -3,7 +3,7 @@
  */
 
 var dataTypes = require("sequelize");
-var sequelize = require("../../../config/sequelize");
+var sequelize = require("../../config/sequelize");
 var travel = sequelize.define("travel", {
     id: {
         type: dataTypes.STRING,

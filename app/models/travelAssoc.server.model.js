@@ -4,37 +4,30 @@
 
 var dataTypes = require("sequelize");
 var sequelize = require("../../../config/sequelize");
-var car = sequelize.define("car", {
-    id: {
+var travelAssoc = sequelize.define("travel_assoc", {
+    travelIdFrom: {
         type: dataTypes.STRING,
-        allowNull: false,
-        unique: true,
-        primaryKey: true
+        field: 'travel_id_from'
     },
-    userId: {
+    travelIdTo: {
         type: dataTypes.STRING,
-        field: 'user_id'
+        field: 'travel_id_to'
     },
-    carNo: {
+    travelAssocType: {
         type: dataTypes.STRING,
-        comment: '车牌号',
-        field: 'car_no'
+        field: 'travel_assoc_type'
     },
-    carDescription: {
-        type: dataTypes.BOOLEAN,
-        comment: '车描述）'
+    fromDate: {
+        type: dataTypes.DATE,
+        field: 'from_date'
     },
-    color: {
-        type: dataTypes.STRING,
-        comment: '颜色'
+    thruDate: {
+        type: dataTypes.DATE,
+        field: 'thru_date'
     },
-    carType: {
-        type: dataTypes.STRING,
-        comment: '车类型 1：默认使用 0非默认'
-    },
-    status: {
-        type: dataTypes.DECIMAL(10, 2),
-        comment: '状态1：未删除 0：已删除'
+    seq: {
+        type: dataTypes.INTEGER,
+        field: 'seq'
     },
     createBy: {
         type: dataTypes.STRING,
@@ -52,12 +45,18 @@ var car = sequelize.define("car", {
         type: dataTypes.DATE,
         field: 'update_on'
     }
+}, {
+    timestamps: false,
+    indexes: [{
+        unique: true,
+        fields: ["id"]
+    }]
 });
 
-car.sync().then(function (data) {
+notification.sync().then(function (data) {
     console.log(data);
 }).catch(function (error) {
     console.log(error);
 });
 
-module.exports = car;
+module.exports = notification;

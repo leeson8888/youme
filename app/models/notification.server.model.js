@@ -4,7 +4,7 @@
 
 var dataTypes = require("sequelize");
 var sequelize = require("../../../config/sequelize");
-var notification = sequelize.define("car", {
+var notification = sequelize.define("notification", {
     id: {
         type: dataTypes.STRING,
         allowNull: false,
@@ -114,12 +114,18 @@ var notification = sequelize.define("car", {
         type: dataTypes.DATE,
         field: 'update_on'
     }
+}, {
+    timestamps: false,
+    indexes: [{
+        unique: true,
+        fields: ["id"]
+    }]
 });
 
-car.sync().then(function (data) {
+notification.sync().then(function (data) {
     console.log(data);
 }).catch(function (error) {
     console.log(error);
 });
 
-module.exports = car;
+module.exports = notification;

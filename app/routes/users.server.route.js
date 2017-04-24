@@ -3,7 +3,7 @@
  */
 var express = require('express');
 var router = express.Router();
-var userController = require("../controllers/user/user.server.controller");
+var userController = require("../controllers/user.server.controller.js");
 var filtter = require("../util/filtter");
 router.post('/register', userController.register);
 router.post('/login', userController.login);
