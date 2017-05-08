@@ -80,6 +80,12 @@ var travel = sequelize.define("travel", {
     create_by: dataTypes.STRING,
     update_by: dataTypes.STRING,
     update_on: dataTypes.DATE
+}, {
+    timestamps: false,
+    indexes: [{
+        unique: true,
+        fields: ["id"]
+    }]
 });
 
 travel.sync().then(function (data) {

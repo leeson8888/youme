@@ -52,6 +52,12 @@ var car = sequelize.define("car", {
         type: dataTypes.DATE,
         field: 'update_on'
     }
+}, {
+    timestamps: false,
+    indexes: [{
+        unique: true,
+        fields: ["id"]
+    }]
 });
 
 car.sync().then(function (data) {

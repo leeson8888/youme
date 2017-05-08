@@ -12,7 +12,7 @@ var toModel = require("../util/toModel");
 var car = require("../models/car.server.model.js");
 module.exports = {
     login: function (req, res, next) {
-        exc("select * from users where phone = " + req.body.phone, [1], function (error, result, fields) {
+        exc("select * from users where phone = " + req.body.phone, [1], function (error, result) {
             result = result[0] || null;
             if (result) {
                 if (result.pass_word && (result.pass_word == req.body.password)) {

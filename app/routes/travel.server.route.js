@@ -17,3 +17,4 @@ router.get("/passenger/close", travelController.psg.close);
 router.get("/passenger/listMatched", travelController.psg.listMatched);
 
 
+module.exports = router;

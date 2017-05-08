@@ -42,6 +42,12 @@ var travelAssoc = sequelize.define("travel_assoc", {
         type: dataTypes.DATE,
         field: 'update_on'
     }
+}, {
+    timestamps: false,
+    indexes: [{
+        unique: true,
+        fields: ["id"]
+    }]
 });
 
 travelAssoc.sync().then(function (data) {
