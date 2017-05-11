@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1fd63e3-ef0b-444d-a05f-4df7257fc35c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="e1fd63e3-ef0b-444d-a05f-4df7257fc35c" name="Default" comment="update gitignore">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +27,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="383">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,6 +66,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -401,7 +403,7 @@
       <workItem from="1494227623600" duration="377000" />
       <workItem from="1494290883287" duration="7221000" />
       <workItem from="1494492033398" duration="1450000" />
-      <workItem from="1494497746503" duration="1301000" />
+      <workItem from="1494497746503" duration="1843000" />
     </task>
     <task id="LOCAL-00001" summary="添加了多个 实体  注册 和登录打通  实现跨域">
       <created>1492936425221</created>
@@ -487,11 +489,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494499080984</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update gitignore">
+      <created>1494499085542</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1494499085542</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138259000" />
+    <option name="totallyTimeSpent" value="138801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -873,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="383">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
