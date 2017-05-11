@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1fd63e3-ef0b-444d-a05f-4df7257fc35c" name="Default" comment="删除 node_modules">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+    <list default="true" id="e1fd63e3-ef0b-444d-a05f-4df7257fc35c" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/youme.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -408,7 +401,7 @@
       <workItem from="1494227623600" duration="377000" />
       <workItem from="1494290883287" duration="7221000" />
       <workItem from="1494492033398" duration="1450000" />
-      <workItem from="1494497746503" duration="1287000" />
+      <workItem from="1494497746503" duration="1301000" />
     </task>
     <task id="LOCAL-00001" summary="添加了多个 实体  注册 和登录打通  实现跨域">
       <created>1492936425221</created>
@@ -487,11 +480,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494498935574</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update gitignore">
+      <created>1494499080984</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1494499080984</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138245000" />
+    <option name="totallyTimeSpent" value="138259000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,7 +541,8 @@
     <MESSAGE value="优化代码" />
     <MESSAGE value="update ignore" />
     <MESSAGE value="删除 node_modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除 node_modules" />
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
