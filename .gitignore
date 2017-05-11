@@ -59,7 +59,7 @@ typings/
 .env
 
 
-.idea/*.*
+.idea/
 *.xml
 log/
 
